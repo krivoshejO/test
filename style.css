@@ -1,0 +1,25 @@
+body{
+    background-color: darkgrey;
+    text-align: center;
+}
+img{
+    width: 250px;
+    transition: all 3s ease;
+    animation: rocket 1s infinite;
+    position: relative;
+}
+img:hover{
+    transform: rotate(360deg);
+}
+
+@keyframes rocket{
+    0%{
+        top: 0;
+    }
+    50%{
+        top:-10px;
+    }
+    100%{
+        top: 0;
+    }
+}
